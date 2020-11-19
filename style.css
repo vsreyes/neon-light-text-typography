@@ -39,6 +39,18 @@ section .container h2 span {
   color: #fff;
   animation: animate 5s linear infinite;
 }
+section .container h2 span.text2 {
+  animation-delay: -0.5s;
+  filter: hue-rotate(225deg);
+}
+section .container h2 span.text3 {
+  animation-delay: -1s;
+  filter: hue-rotate(225deg);
+}
+section .container h2 span.text4 {
+  animation-delay: -1.5s;
+  filter: hue-rotate(180deg);
+}
 @keyframes animate {
   0%,
   5%,
